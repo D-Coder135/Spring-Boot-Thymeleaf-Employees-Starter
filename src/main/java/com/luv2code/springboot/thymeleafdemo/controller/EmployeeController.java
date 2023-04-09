@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/employees")
 public class EmployeeController {
 
-	// load employee data
+
 
 	// add mapping for "/list"
 
