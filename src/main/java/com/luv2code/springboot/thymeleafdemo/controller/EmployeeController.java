@@ -18,6 +18,7 @@ public class EmployeeController {
 
 	private EmployeeService employeeService;
 
+	// For a single parameter inside the constructor, @Autowired annotation is optional for constructor injection.
 	@Autowired
 	public EmployeeController(EmployeeService employeeService) {
 		this.employeeService = employeeService;
