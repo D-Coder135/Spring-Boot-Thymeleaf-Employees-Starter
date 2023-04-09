@@ -3,6 +3,7 @@ package com.luv2code.springboot.thymeleafdemo.controller;
 import com.luv2code.springboot.thymeleafdemo.entity.Employee;
 import com.luv2code.springboot.thymeleafdemo.service.EmployeeService;
 import jakarta.annotation.PostConstruct;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +18,7 @@ public class EmployeeController {
 
 	private EmployeeService employeeService;
 
+	@Autowired
 	public EmployeeController(EmployeeService employeeService) {
 		this.employeeService = employeeService;
 	}
