@@ -42,6 +42,8 @@ public class EmployeeController {
 
 		theModel.addAttribute("employee", theEmployee);
 
+		return "employees/employee-form";
+
 	}
 
 }
