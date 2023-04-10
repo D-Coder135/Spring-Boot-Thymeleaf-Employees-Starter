@@ -38,6 +38,7 @@ public class EmployeeController {
 	public String showFormForAdd(Model theModel) {
 
 		// create model attribute to bind form data
+		Employee theEmployee = new Employee();
 
 	}
 
