@@ -78,7 +78,7 @@ public class EmployeeController {
 		employeeService.deleteById(theId);
 
 		// redirect to the /employees/list
-
+		return "redirect:/employees/list";
 	}
 
 }
