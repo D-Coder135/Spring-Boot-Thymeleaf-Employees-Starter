@@ -71,6 +71,10 @@ public class EmployeeController {
 
 	}
 
+	public String delete(@RequestParam("employeeId") int theId) {
+
+	}
+
 }
 
 
