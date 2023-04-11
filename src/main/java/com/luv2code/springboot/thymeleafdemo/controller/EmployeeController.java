@@ -50,11 +50,12 @@ public class EmployeeController {
 	public String showFormForUpdate(@RequestParam("employeeId") int theId, Model theModel) {
 
 		// get the employee from the service
+		Employee theEmployee = employeeService.findById(theId);
 
 		// set employee in the model to prepopulate the form
 
 		// send over to our form
-		return "employee/employee-form";
+		return "employees/employee-form";
 
 	}
 
