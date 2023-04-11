@@ -35,6 +35,7 @@ public class EmployeeController {
 		return "employees/list-employees";
 	}
 
+	@GetMapping("/showFormForAdd")
 	public String showFormForAdd(Model theModel) {
 
 		// create model attribute to bind form data
