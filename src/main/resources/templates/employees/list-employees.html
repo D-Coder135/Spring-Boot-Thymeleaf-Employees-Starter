@@ -43,7 +43,10 @@
 				<!--Add update button Link -->
 
 				<td>
-
+					<a th:href="@{/employees/showFormForUpdate(employeeId=${tempEmployee.id})}"
+					   class="btn btn-info btn-sm">
+						Update
+					</a>
 				</td>
 				
 			</tr>
