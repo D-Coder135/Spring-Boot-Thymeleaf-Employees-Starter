@@ -71,6 +71,7 @@ public class EmployeeController {
 
 	}
 
+	@GetMapping("/delete")
 	public String delete(@RequestParam("employeeId") int theId) {
 
 	}
