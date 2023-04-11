@@ -54,6 +54,7 @@ public class EmployeeController {
 		// set employee in the model to prepopulate the form
 
 		// send over to our form
+		return "employee/employee-form";
 
 	}
 
