@@ -21,6 +21,11 @@
 
         <p class="h4 mb-4">Save Employee</p>
 
+        <form action="#" th:action="@{/employees/save}"
+                         th:object="${employee}" method="POST">
+
+        </form>
+
     </div>
 
 </body>
