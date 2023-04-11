@@ -49,6 +49,12 @@ public class EmployeeController {
 	@GetMapping("/showFormForUpdate")
 	public String showFormForUpdate(@RequestParam("employeeId") int theId, Model theModel) {
 
+		// get the employee from the service
+
+		// set employee in the model to prepopulate the form
+
+		// send over to our form
+
 	}
 
 	@PostMapping("/save")
